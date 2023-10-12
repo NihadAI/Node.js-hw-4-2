@@ -1,0 +1,48 @@
+.create-post__container {
+    margin-top: 110px;
+}
+
+.create-post__title {
+    text-transform: uppercase;
+    color: #1F2254;
+    font-size: 30px;
+    text-align: center;
+}
+
+.create-post__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+ 
+}
+
+.create-post__form input {
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;   
+    border-radius: 6px;
+    transition: ease 0.3s;
+}
+
+.create-post__form input:hover {
+    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
+}
+
+.create-post__form input:focus {
+    outline: 1px solid #1F2254;
+    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.8);
+}
+
+
+
+.create-post__form input::placeholder {
+    color: #8985A4;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.create-post__message {
+    text-align: center;
+    color: green;
+}
